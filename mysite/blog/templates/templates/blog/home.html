@@ -1,0 +1,10 @@
+{% block content %}
+    <h1>Posts</h1>
+    {% for post in posts %}
+        <ul>
+            <li>{{post.title}}</li>
+        </ul>
+        
+    {% endfor %}
+
+{% endblock content %}
